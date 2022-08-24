@@ -9,7 +9,7 @@ exports.getCategoryById =(req,res,next,id) =>{
                 error:"No category was found"
             })
         }
-        req.category =cate;
+        req.category = cate;
     next();
     });
 };
