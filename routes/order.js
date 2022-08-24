@@ -5,7 +5,7 @@ const {isSignedIn,isAuthenticated,isAdmin} =require('../controllers/auth');
 const {getUserById, pushOrderInPurchaseList} =require('../controllers/user');
 const {updateStock} =require('../controllers/product');
 
-const {getOrderById,createOrder,getAllOrders,updateStatus ,getOrderStatus} =require('../controllers/order');
+const {getOrderById, createOrder, getAllOrders, updateStatus, getOrderStatus} =require('../controllers/order');
 
 //params
 router.param("userId", getUserById)
